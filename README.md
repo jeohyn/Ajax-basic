@@ -1,2 +1,2 @@
 # Ajax-basic
-/*study- opentutorial.com */
+/*study- opentutorials.org */
