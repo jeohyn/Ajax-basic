@@ -24,3 +24,8 @@ Cascading Style Sheets (CSS) is a style sheet language used for describing the p
 //list
 html, css, javascript, ajax
 
+//welcome
+<h2>Welcome</h2>
+Hello , Ajax
+
+
