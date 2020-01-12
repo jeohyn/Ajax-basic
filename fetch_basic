@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<body>
+  <article>
+    </article>
+  <input type="button" value="fetch1" onclick="fetch('css').then(function(response){//css==파일
+    response.text().then(function(text){ //text==서버가 응답한 데이터
+      document.querySelector('article').innerHTML=text;
+    })
+  })">
+  <input type="button" value="fetch2" onclick="fetch('html').then(function(response){
+       if(response.status == '404'){
+         alert('Not found')
+       }
+     });">
+  </body>
+  </html>
